@@ -131,7 +131,7 @@ matrix:
       if: branch = auto
     - env: IMAGE=dist-various-1 DEPLOY=1
       name: dist-various-1
-      if: branch = auto
+      if: branch = try
     - env: IMAGE=dist-various-2 DEPLOY=1
       name: dist-various-2
       if: branch = auto
