@@ -6,6 +6,8 @@ use std::path::Path;
 /// List of whitelisted sources for packages.
 const WHITELISTED_SOURCES: &[&str] = &[
     "\"registry+https://github.com/rust-lang/crates.io-index\"",
+    "\"git+https://github.com/hug-dev/compiler-builtins?branch=\
+armv8m-support#e745aea2c2ba46fef91d3761c9af699e5dc214f5\"",
 ];
 
 /// Checks for external package sources.
