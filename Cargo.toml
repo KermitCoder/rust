@@ -55,6 +55,7 @@ debug-assertions = false
 cargo = { path = "src/tools/cargo" }
 
 [patch.crates-io]
+compiler_builtins = { git = "https://github.com/hug-dev/compiler-builtins", branch = "armv8m-support" }
 # Similar to Cargo above we want the RLS to use a vendored version of `rustfmt`
 # that we're shipping as well (to ensure that the rustfmt in RLS and the
 # `rustfmt` executable are the same exact version).
